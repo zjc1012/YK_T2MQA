@@ -49,6 +49,14 @@ bash average.sh
 ```
   - Results saved to: `data/final_result`
 
+### 5. Trained Weights (Ready for Inference)
+We provide trained weights for both model0 and model1 (including k-fold checkpoints) that can be directly used for inference:  
+- **Download Link**: [BaiduYunpan](https://pan.baidu.com/s/1oUZQWj5Xh3NMDCJys9YZbg?pwd=5khb)  
+
+The compressed package contains:
+- `model0.zip`: All k-fold checkpoints of model0
+- `model1.zip`: All k-fold checkpoints of model1
+
 ## Network Architecture
 - Dual encoder structure (visual + text) for AIGC image quality assessment
 - Self-distillation training strategy across 2 model stages (model0 → model1)
